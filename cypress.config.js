@@ -3,7 +3,8 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   projectId: '9q4psy',
   env: {
-    viewportWidthBreakpoint: 768
+    viewportWidthBreakpoint: 768,
+    grepFilterSpecs: true
   },
   e2e: {
     baseUrl: 'https://notes-serverless-app.com/',
@@ -11,7 +12,8 @@ module.exports = defineConfig({
     experimentalSessionAndOrigin: true,
     chromeWebSecurity: false,
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      require('cypress-grep/src/plugin')(config);
+      return config;
     },
   },
 });
