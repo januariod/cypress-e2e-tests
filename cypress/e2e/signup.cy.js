@@ -1,3 +1,5 @@
+/// <reference path="../support/commands.d.ts" />
+
 const faker = require('faker');
 
 it('successfully signs up using confirmation code sent via email', () => {

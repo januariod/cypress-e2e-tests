@@ -1,3 +1,5 @@
+/// <reference path="../support/commands.d.ts" />
+
 const faker = require('faker');
 
 describe('Scenarios where authentication is a pre-requirement', () => {
