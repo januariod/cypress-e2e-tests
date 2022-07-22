@@ -1,4 +1,4 @@
-# Testes _end-to-end_ com Cypress
+# _End-To-End_ tests with Cypress
 
 Sample project to demonstrate end-to-end (e2e) tests written with Cypress running on a CI service.
 
