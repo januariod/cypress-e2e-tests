@@ -1,5 +1,7 @@
 # _End-To-End_ tests with Cypress
 
+[![Build Status](https://github.com/januariod/cypress-e2e-tests/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/januariod/cypress-e2e-tests/actions/workflows/ci.yml)
+
 Sample project to demonstrate end-to-end (e2e) tests written with Cypress running on a CI service.
 
 ## Pre-requirements
@@ -44,3 +46,5 @@ Run `npm run cy:open:tablet` to open the Cypress Test Runner to run tests in int
 ___
 
 Made with ❤️ by [Daniel Januario](https://github.com/januariod).
+
+Tks to @wlsf82 and TAT School :love_you_gesture:
